@@ -1,0 +1,26 @@
+.recent-job-icons {
+  right: 5px;
+  z-index: 5;
+  background-color: #e7e5f5;
+  padding: 7px 25px;
+  border-radius: 50px;
+  font-weight: 400;
+  color: #5b48d2;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.recent-job-icons:hover {
+  background-color: #5b48d2;
+  color: #ffff;
+}
+
+.recent-job-heart-icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f55050;
+  background: #f5d0d0;
+}

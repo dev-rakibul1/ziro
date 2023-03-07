@@ -1,0 +1,141 @@
+/* .brand-slide-wrapper {
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.brand-slide-wrapper::before,
+.brand-slide-wrapper::before {
+  content: "";
+  height: 100%;
+  width: 15%;
+  z-index: 2;
+  position: absolute;
+  background-color: red;
+}
+
+.brand-slide-wrapper::before {
+  top: 0;
+  left: 0;
+}
+
+.brand-slide-wrapper::after {
+  top: 0;
+  right: 0;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 18);
+  animation: brandSlideEffect 40s linear infinite;
+}
+
+@keyframes brandSlideEffect {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+
+.slider-child {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.slider-child img {
+  width: 100%;
+} */
+/* .brand-slide-wrapper {
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  flex-direction: row;
+  width: calc(250px * 18);
+  animation: brandSlideEffect 40s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes brandSlideEffect {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+} */
+
+.slider-wrap {
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 18);
+  animation: brandSlideEffect 40s linear infinite;
+}
+
+@keyframes brandSlideEffect {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+.single-slide {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+img {
+  width: 100%;
+  transition: transform 1s;
+}
+
+img:hover {
+  transform: translateZ(10px);
+  cursor: pointer;
+}
+
+.slider-wrap::before,
+.slider-wrap::before {
+  content: "";
+  height: 100%;
+  width: 15%;
+  z-index: 2;
+  position: absolute;
+  background-color: transparent;
+}
+
+.slider-wrap::before {
+  top: 0;
+  left: 0;
+}
+
+.slider-wrap::after {
+  top: 0;
+  right: 0;
+  transform: rotateZ(180deg);
+}

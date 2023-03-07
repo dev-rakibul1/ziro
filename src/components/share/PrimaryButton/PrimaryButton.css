@@ -1,0 +1,12 @@
+.primary-button {
+  background-color: #5f4bdb;
+  padding: 8px 25px;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.primary-button:hover {
+  background-color: #5543c5;
+}

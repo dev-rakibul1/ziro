@@ -1,0 +1,28 @@
+.jobs-hero-wrapper .job-list-hero-input input {
+  position: relative;
+  max-width: 100%;
+  padding: 15px;
+  border-radius: 50px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #ddd;
+}
+
+.jobs-hero-wrapper .job-list-hero-input input:focus {
+  outline: none;
+}
+
+.jobs-hero-wrapper .subscribe {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  z-index: 5;
+  background-color: #5b48d2;
+  padding: 10px 25px;
+  border-radius: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}

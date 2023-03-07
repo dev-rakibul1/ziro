@@ -1,0 +1,53 @@
+.user-area-top-hero {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+select {
+  color: red;
+}
+
+.user-area-multi-search-input {
+  position: relative;
+  /* padding: 0 10px; */
+  width: 100% !important;
+  height: 45px;
+}
+
+.user-area-multi-search-btn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+/* select:focus + .focus {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  border: 2px solid red !important;
+  border-radius: inherit;
+} */
+
+select {
+  appearance: none !important;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding: 10px !important;
+  color: rgb(87, 87, 87) !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  background-color: none !important;
+  background: none !important;
+}
+
+.user-area-search-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

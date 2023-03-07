@@ -1,0 +1,41 @@
+ul.feature-rating li:last-child {
+  color: #d8d8d8;
+}
+
+.feature-profile-wrap .slick-prev {
+  left: -25px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  background-color: #5f4bdb;
+  border-radius: 100%;
+  position: absolute;
+  left: -5%;
+}
+
+.feature-profile-wrap .slick-next {
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  background: #5f4bdb;
+  border-radius: 100%;
+  position: absolute;
+  right: -5%;
+  transition: 0.5s;
+}
+
+.feature-profile-wrap .slick-prev:hover {
+  background: #5f4bdb;
+  color: #fff;
+}
+
+.feature-profile-wrap .slick-next:hover {
+  background: #5f4bdb;
+  color: #fff;
+}
+
+/* .feature-profile-wrap:hover .slick-prev {
+  right: -3% !important;
+} */

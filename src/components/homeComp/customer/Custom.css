@@ -1,0 +1,30 @@
+.customer-wrapper .slick-prev,
+.customer-wrapper .slick-next {
+  width: 40px;
+  height: 40px !important;
+  display: block;
+  z-index: 50;
+  position: absolute;
+  border-radius: 100%;
+  padding: 10px;
+  transition: 0.3s;
+}
+.customer-wrapper .slick-prev {
+  left: 35%;
+  color: rgb(0, 0, 0);
+  top: 90% !important;
+}
+.customer-wrapper .slick-next {
+  left: 41%;
+  color: rgb(0, 0, 0);
+  top: 90% !important;
+}
+.customer-wrapper .slick-next:hover,
+.customer-wrapper .slick-prev:hover {
+  color: #fff;
+  background-color: #5f4bdb;
+}
+
+.customer-rating li:last-child {
+  color: #d6d6d6;
+}

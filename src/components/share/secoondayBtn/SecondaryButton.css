@@ -1,0 +1,12 @@
+.secondary-button {
+  background-color: #fe8d4d;
+  padding: 8px 25px;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 14px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.secondary-button:hover {
+  background-color: #e68045;
+}

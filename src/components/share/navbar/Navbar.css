@@ -1,0 +1,129 @@
+/* navbar logo */
+.navbar-logo {
+  max-width: 95px;
+}
+
+/* navbar */
+
+.navbar-nav .nav-items {
+  margin: 10px;
+}
+
+.navbar-nav .nav-items .nav-link {
+  color: #646464;
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navigation {
+  transition: all 1s;
+}
+.navbar-nav .nav-items .nav-link:hover {
+  color: #000;
+}
+
+/* search box */
+.navbar-search input {
+  padding: 7px 10px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.navbar-search input:focus {
+  outline: none;
+}
+
+svg.navbar-search-icon {
+  position: absolute;
+  right: 13px;
+  width: 26px;
+  height: 17px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+/* collapse navbar */
+.collapse-navbar {
+  position: absolute;
+  top: 0;
+  left: -999px;
+  padding: 50px;
+  height: 100vh;
+  transform: translate(0);
+  transition: 0.5s;
+  opacity: 0;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ddd;
+}
+
+.navSticky {
+  left: 0 !important;
+  transform: translate(1);
+  opacity: 1;
+  z-index: 99;
+  position: fixed;
+}
+
+/* .sti {
+  top: 0!important;
+  transition: 1.3s all ease-in-out;
+}
+
+.sticky {
+  background-color: #000;
+  position: fixed;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1050;
+  animation-name: stickyName;
+  animation-duration: .3s;
+} */
+
+/* navigation overly */
+.navigation-overly {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  backdrop-filter: blur(7px);
+  z-index: 98;
+  position: fixed;
+}
+
+/* scrolling effect */
+.navScrollOver {
+  top: 0 !important;
+  transition: 4s all ease-in-out;
+  border: 1px solid #fff;
+}
+
+.navScroll {
+  backdrop-filter: blur(7px);
+  position: fixed;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1050;
+  animation-name: stickyName;
+  animation-duration: 0.3s;
+}
+
+@keyframes stickyName {
+  0% {
+    transform: scaleX(-300);
+    opacity: 0;
+    transition: 4s all ease-in-out;
+  }
+
+  100% {
+    transform: scaleX(0);
+    opacity: 1;
+    transition: 4s all ease-in-out;
+  }
+}

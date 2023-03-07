@@ -1,0 +1,35 @@
+input[type="date"]::-webkit-datetime-edit-text {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.event-like-effect {
+  margin-top: -50px;
+  padding: 10px 7px;
+  border-radius: 30px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.up-coming-events-article-wrap .event-time-icon,
+.up-coming-events-article-wrap .event-time p,
+.up-coming-events-article-wrap .event-time {
+  transition: 0.5s;
+}
+
+.up-coming-events-article-wrap:hover .event-time {
+  background-color: #2ebf34;
+  color: white;
+}
+
+.up-coming-events-article-wrap:hover .event-time p {
+  color: white;
+}
+
+.up-coming-events-article-wrap:hover .event-time-icon {
+  background-color: #ecbfbf;
+  color: #f55050;
+  border: 1px solid #ecbfbf;
+}
